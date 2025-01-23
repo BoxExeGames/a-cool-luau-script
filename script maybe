@@ -1,0 +1,9 @@
+local lighting = game.Lighting
+
+do 
+	lighting.Brightness = 0.09
+	lighting.ClockTime = 0
+	lighting.Ambient = Color3.fromRGB(155,0,0)
+  lighting.OutdoorAmbient = Color3.fromRGB(155,0,0)
+  lighting.LightingStyle = Enum.LightingStyle.Realistic
+end
